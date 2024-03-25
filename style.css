@@ -1,0 +1,58 @@
+@import url(./init.css);
+/* 我自己的配色 */
+/* body */
+body {
+  background-color: rgb(64, 64, 64);
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+/* 链接 */
+a {
+  text-decoration: none;
+  color: rgb(12, 242, 108);
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  border: 0.1rem solid rgba(217, 149, 24);
+}
+/* 已格式化代码 */
+pre {
+  background-color: rgba(10, 10, 10, 0.42);
+  border-radius: 0.3rem;
+}
+/* 引用 */
+blockquote {
+  background-color: rgba(10, 10, 10, 0.28);
+  border-left: 0.2rem solid rgb(17, 199, 72);
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+}
+/* menubar */
+ul.menubar {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  right: 1rem;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+ul.menubar li {
+  margin-right: 1rem;
+}
+ul.menubar li * {
+  color: #fff;
+}
+ul.menubar li:hover,
+ul.menubar li a:hover {
+  color: rgb(12, 242, 108);
+  text-decoration: underline;
+}
+
+/* 页脚 */
+footer {
+  text-align: center;
+}

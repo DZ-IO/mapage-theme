@@ -1,0 +1,18 @@
+/* 上下边距不要过宽 */
+* {
+  margin-top: 0.04rem;
+  margin-bottom: 0.04rem;
+  padding-top: 0.04rem;
+  padding-bottom: 0.04rem;
+}
+/* 图片不许过大 */
+img {
+  max-width: 100%;
+}
+/* 大显示器版心居中 */
+@media screen and (width >= 1080px) {
+  body {
+    margin: 0 auto;
+    width: 75%;
+  }
+}
